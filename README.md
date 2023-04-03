@@ -2,6 +2,8 @@
 
 VERY WORKING PROGESS. This is a OSC -> WebSocket Bridge. It works but it's not really meant for public use.
 
+Tested with [VRCFaceTracking v5.0.0-pre-2](https://github.com/regzo2/VRCFaceTracking/releases/tag/v5.0.0-pre-2)
+
 - `pnpm run list` - To generate parameters json from parameters.txt
 - `pnpm run dev` - To run it 
 
