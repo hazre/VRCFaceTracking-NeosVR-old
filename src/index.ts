@@ -1,10 +1,11 @@
 import osc from 'osc'
 import type { WebSocket } from 'ws'
 import { WebSocketServer } from 'ws'
-import expressions from '../static/expressions.json'
-import type { FaceExpression } from './d.js'
+import parameters from '../static/vrc_parameters.json'
+import type { FaceExpression, Parameter } from './d.js'
 import { decode } from './decode.js'
 
+const expressions = parameters?.parameters.map((p: Parameter) => p?.input?.address.split('/')[5]).reduce((a, v) => ({ ...a, [v]: 0 }), {})
 const face_expression: FaceExpression = expressions
 const fe_keys = Object.keys(face_expression)
 
@@ -21,12 +22,6 @@ const udpPort = new osc.UDPPort({
   remotePort: 9001,
   metadata: false,
 })
-
-const print = (data: string) => {
-  process.stdout.clearLine(0)
-  process.stdout.cursorTo(0)
-  process.stdout.write(data)
-}
 
 const send_data = (ws: WebSocket) => {
   send_data_interval = setInterval(() => {
@@ -77,7 +72,7 @@ udpPort.on('error', (err: any) => {
 
 udpPort.on('raw', (data: Uint8Array) => {
   try {
-    decode(data).elements.map((a: any) => face_expression[a[0].split('/')[3]] = a[1])
+    decode(data).elements.map((a: any) => face_expression[a[0].split('/')[5]] = a[1])
   }
   catch (error) {
     console.error(error)

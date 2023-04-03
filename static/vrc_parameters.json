@@ -1,1236 +1,741 @@
-{
-  "id": "vrc_parameters",
-  "name": "expressions",
+﻿{
+  "id": "vrc_parameters_ue_3",
+  "name": "VRCFT （UE）",
   "parameters": [
     {
-      "name": "BrowDownLeft",
+      "name": "FT/v2/EyesDilation",
       "input": {
-        "address": "/avatar/parameters/BrowDownLeft",
+        "address": "/avatar/parameters/FT/v2/EyesDilation",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/BrowDownLeft",
+        "address": "/avatar/parameters/FT/v2/EyesDilation",
         "type": "Float"
       }
     },
     {
-      "name": "BrowDownRight",
+      "name": "FT/v2/LipFunnelLower",
       "input": {
-        "address": "/avatar/parameters/BrowDownRight",
+        "address": "/avatar/parameters/FT/v2/LipFunnelLower",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/BrowDownRight",
+        "address": "/avatar/parameters/FT/v2/LipFunnelLower",
         "type": "Float"
       }
     },
     {
-      "name": "BrowInnerUpLeft",
+      "name": "FT/v2/LipFunnelUpper",
       "input": {
-        "address": "/avatar/parameters/BrowInnerUpLeft",
+        "address": "/avatar/parameters/FT/v2/LipFunnelUpper",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/BrowInnerUpLeft",
+        "address": "/avatar/parameters/FT/v2/LipFunnelUpper",
         "type": "Float"
       }
     },
     {
-      "name": "BrowInnerUpRight",
+      "name": "FT/v2/BrowOuterUpRight",
       "input": {
-        "address": "/avatar/parameters/BrowInnerUpRight",
+        "address": "/avatar/parameters/FT/v2/BrowOuterUpRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/BrowInnerUpRight",
+        "address": "/avatar/parameters/FT/v2/BrowOuterUpRight",
         "type": "Float"
       }
     },
     {
-      "name": "BrowOuterUpLeft",
+      "name": "FT/v2/BrowOuterUpLeft",
       "input": {
-        "address": "/avatar/parameters/BrowOuterUpLeft",
+        "address": "/avatar/parameters/FT/v2/BrowOuterUpLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/BrowOuterUpLeft",
+        "address": "/avatar/parameters/FT/v2/BrowOuterUpLeft",
         "type": "Float"
       }
     },
     {
-      "name": "BrowOuterUpRight",
+      "name": "FT/v2/BrowsInnerUp",
       "input": {
-        "address": "/avatar/parameters/BrowOuterUpRight",
+        "address": "/avatar/parameters/FT/v2/BrowsInnerUp",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/BrowOuterUpRight",
+        "address": "/avatar/parameters/FT/v2/BrowsInnerUp",
         "type": "Float"
       }
     },
     {
-      "name": "BrowsDown",
+      "name": "FT/v2/BrowDownRight",
       "input": {
-        "address": "/avatar/parameters/BrowsDown",
+        "address": "/avatar/parameters/FT/v2/BrowDownRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/BrowsDown",
+        "address": "/avatar/parameters/FT/v2/BrowDownRight",
         "type": "Float"
       }
     },
     {
-      "name": "BrowsInnerUp",
+      "name": "FT/v2/BrowDownLeft",
       "input": {
-        "address": "/avatar/parameters/BrowsInnerUp",
+        "address": "/avatar/parameters/FT/v2/BrowDownLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/BrowsInnerUp",
+        "address": "/avatar/parameters/FT/v2/BrowDownLeft",
         "type": "Float"
       }
     },
     {
-      "name": "BrowsOuterUp",
+      "name": "FT/v2/MouthTightener",
       "input": {
-        "address": "/avatar/parameters/BrowsOuterUp",
+        "address": "/avatar/parameters/FT/v2/MouthTightener",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/BrowsOuterUp",
+        "address": "/avatar/parameters/FT/v2/MouthTightener",
         "type": "Float"
       }
     },
     {
-      "name": "CheekPuffLeft",
+      "name": "FT/v2/MouthStretchRight",
       "input": {
-        "address": "/avatar/parameters/CheekPuffLeft",
+        "address": "/avatar/parameters/FT/v2/MouthStretchRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/CheekPuffLeft",
+        "address": "/avatar/parameters/FT/v2/MouthStretchRight",
         "type": "Float"
       }
     },
     {
-      "name": "CheekPuffRight",
+      "name": "FT/v2/MouthStretchLeft",
       "input": {
-        "address": "/avatar/parameters/CheekPuffRight",
+        "address": "/avatar/parameters/FT/v2/MouthStretchLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/CheekPuffRight",
+        "address": "/avatar/parameters/FT/v2/MouthStretchLeft",
         "type": "Float"
       }
     },
     {
-      "name": "CheekSquintLeft",
+      "name": "FT/v2/NoseSneerRight",
       "input": {
-        "address": "/avatar/parameters/CheekSquintLeft",
+        "address": "/avatar/parameters/FT/v2/NoseSneerRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/CheekSquintLeft",
+        "address": "/avatar/parameters/FT/v2/NoseSneerRight",
         "type": "Float"
       }
     },
     {
-      "name": "CheekSquintRight",
+      "name": "FT/v2/NoseSneerLeft",
       "input": {
-        "address": "/avatar/parameters/CheekSquintRight",
+        "address": "/avatar/parameters/FT/v2/NoseSneerLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/CheekSquintRight",
+        "address": "/avatar/parameters/FT/v2/NoseSneerLeft",
         "type": "Float"
       }
     },
     {
-      "name": "CheekSuck",
+      "name": "FT/v2/TongueYNegative",
       "input": {
-        "address": "/avatar/parameters/CheekSuck",
+        "address": "/avatar/parameters/FT/v2/TongueYNegative",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/CheekSuck",
+        "address": "/avatar/parameters/FT/v2/TongueYNegative",
         "type": "Float"
       }
     },
     {
-      "name": "CombinedEyeLid",
+      "name": "FT/v2/TongueY",
       "input": {
-        "address": "/avatar/parameters/CombinedEyeLid",
+        "address": "/avatar/parameters/FT/v2/TongueY",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/CombinedEyeLid",
+        "address": "/avatar/parameters/FT/v2/TongueY",
         "type": "Float"
       }
     },
     {
-      "name": "CombinedEyeLidExpanded",
+      "name": "FT/v2/TongueXNegative",
       "input": {
-        "address": "/avatar/parameters/CombinedEyeLidExpanded",
+        "address": "/avatar/parameters/FT/v2/TongueXNegative",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/CombinedEyeLidExpanded",
+        "address": "/avatar/parameters/FT/v2/TongueXNegative",
         "type": "Float"
       }
     },
     {
-      "name": "CombinedEyeLidExpanded",
+      "name": "FT/v2/TongueX",
       "input": {
-        "address": "/avatar/parameters/CombinedEyeLidExpanded",
+        "address": "/avatar/parameters/FT/v2/TongueX",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/CombinedEyeLidExpanded",
+        "address": "/avatar/parameters/FT/v2/TongueX",
         "type": "Float"
       }
     },
     {
-      "name": "CombinedEyeLidExpandedSqueeze",
+      "name": "FT/v2/TongueOut",
       "input": {
-        "address": "/avatar/parameters/CombinedEyeLidExpandedSqueeze",
+        "address": "/avatar/parameters/FT/v2/TongueOut",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/CombinedEyeLidExpandedSqueeze",
+        "address": "/avatar/parameters/FT/v2/TongueOut",
         "type": "Float"
       }
     },
     {
-      "name": "CombinedEyeLidExpandedSqueeze",
+      "name": "FT/v2/JawForward",
       "input": {
-        "address": "/avatar/parameters/CombinedEyeLidExpandedSqueeze",
+        "address": "/avatar/parameters/FT/v2/JawForward",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/CombinedEyeLidExpandedSqueeze",
+        "address": "/avatar/parameters/FT/v2/JawForward",
         "type": "Float"
       }
     },
     {
-      "name": "EyesDilation",
+      "name": "FT/v2/MouthClosed",
       "input": {
-        "address": "/avatar/parameters/EyesDilation",
+        "address": "/avatar/parameters/FT/v2/MouthClosed",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/EyesDilation",
+        "address": "/avatar/parameters/FT/v2/MouthClosed",
         "type": "Float"
       }
     },
     {
-      "name": "EyesPupilDiameter",
+      "name": "FT/v2/CheekPuffSuckNegative",
       "input": {
-        "address": "/avatar/parameters/EyesPupilDiameter",
+        "address": "/avatar/parameters/FT/v2/CheekPuffSuckNegative",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/EyesPupilDiameter",
+        "address": "/avatar/parameters/FT/v2/CheekPuffSuckNegative",
         "type": "Float"
       }
     },
     {
-      "name": "EyeSquintLeft",
+      "name": "FT/v2/CheekPuffSuck",
       "input": {
-        "address": "/avatar/parameters/EyeSquintLeft",
+        "address": "/avatar/parameters/FT/v2/CheekPuffSuck",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/EyeSquintLeft",
+        "address": "/avatar/parameters/FT/v2/CheekPuffSuck",
         "type": "Float"
       }
     },
     {
-      "name": "EyeSquintRight",
+      "name": "FT/v2/MouthRaiserLower",
       "input": {
-        "address": "/avatar/parameters/EyeSquintRight",
+        "address": "/avatar/parameters/FT/v2/MouthRaiserLower",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/EyeSquintRight",
+        "address": "/avatar/parameters/FT/v2/MouthRaiserLower",
         "type": "Float"
       }
     },
     {
-      "name": "EyesSqueeze",
+      "name": "FT/v2/MouthXNegative",
       "input": {
-        "address": "/avatar/parameters/EyesSqueeze",
+        "address": "/avatar/parameters/FT/v2/MouthXNegative",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/EyesSqueeze",
+        "address": "/avatar/parameters/FT/v2/MouthXNegative",
         "type": "Float"
       }
     },
     {
-      "name": "EyesSquint",
+      "name": "FT/v2/MouthX",
       "input": {
-        "address": "/avatar/parameters/EyesSquint",
+        "address": "/avatar/parameters/FT/v2/MouthX",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/EyesSquint",
+        "address": "/avatar/parameters/FT/v2/MouthX",
         "type": "Float"
       }
     },
     {
-      "name": "EyesWiden",
+      "name": "FT/v2/JawXNegative",
       "input": {
-        "address": "/avatar/parameters/EyesWiden",
+        "address": "/avatar/parameters/FT/v2/JawXNegative",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/EyesWiden",
+        "address": "/avatar/parameters/FT/v2/JawXNegative",
         "type": "Float"
       }
     },
     {
-      "name": "EyesWidenToggle",
+      "name": "FT/v2/JawX",
       "input": {
-        "address": "/avatar/parameters/EyesWidenToggle",
+        "address": "/avatar/parameters/FT/v2/JawX",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/EyesWidenToggle",
+        "address": "/avatar/parameters/FT/v2/JawX",
         "type": "Float"
       }
     },
     {
-      "name": "EyesX",
+      "name": "FT/v2/SmileFrownRightNegative",
       "input": {
-        "address": "/avatar/parameters/EyesX",
+        "address": "/avatar/parameters/FT/v2/SmileFrownRightNegative",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/EyesX",
+        "address": "/avatar/parameters/FT/v2/SmileFrownRightNegative",
         "type": "Float"
       }
     },
     {
-      "name": "EyesY",
+      "name": "FT/v2/SmileFrownRight",
       "input": {
-        "address": "/avatar/parameters/EyesY",
+        "address": "/avatar/parameters/FT/v2/SmileFrownRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/EyesY",
+        "address": "/avatar/parameters/FT/v2/SmileFrownRight",
         "type": "Float"
       }
     },
     {
-      "name": "EyeTrackingActive",
+      "name": "FT/v2/SmileFrownLeftNegative",
       "input": {
-        "address": "/avatar/parameters/EyeTrackingActive",
+        "address": "/avatar/parameters/FT/v2/SmileFrownLeftNegative",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/EyeTrackingActive",
+        "address": "/avatar/parameters/FT/v2/SmileFrownLeftNegative",
         "type": "Float"
       }
     },
     {
-      "name": "JawForward",
+      "name": "FT/v2/SmileFrownLeft",
       "input": {
-        "address": "/avatar/parameters/JawForward",
+        "address": "/avatar/parameters/FT/v2/SmileFrownLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/JawForward",
+        "address": "/avatar/parameters/FT/v2/SmileFrownLeft",
         "type": "Float"
       }
     },
     {
-      "name": "JawLeft",
+      "name": "FT/v2/LipPucker",
       "input": {
-        "address": "/avatar/parameters/JawLeft",
+        "address": "/avatar/parameters/FT/v2/LipPucker",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/JawLeft",
+        "address": "/avatar/parameters/FT/v2/LipPucker",
         "type": "Float"
       }
     },
     {
-      "name": "JawOpen",
+      "name": "FT/v2/LipSuckUpper",
       "input": {
-        "address": "/avatar/parameters/JawOpen",
+        "address": "/avatar/parameters/FT/v2/LipSuckUpper",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/JawOpen",
+        "address": "/avatar/parameters/FT/v2/LipSuckUpper",
         "type": "Float"
       }
     },
     {
-      "name": "JawRight",
+      "name": "FT/v2/EyeWideRight",
       "input": {
-        "address": "/avatar/parameters/JawRight",
+        "address": "/avatar/parameters/FT/v2/EyeWideRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/JawRight",
+        "address": "/avatar/parameters/FT/v2/EyeWideRight",
         "type": "Float"
       }
     },
     {
-      "name": "LeftEyeLid",
+      "name": "FT/v2/EyeWideLeft",
       "input": {
-        "address": "/avatar/parameters/LeftEyeLid",
+        "address": "/avatar/parameters/FT/v2/EyeWideLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LeftEyeLid",
+        "address": "/avatar/parameters/FT/v2/EyeWideLeft",
         "type": "Float"
       }
     },
     {
-      "name": "LeftEyeLidExpanded",
+      "name": "FT/v2/EyeSquintRight",
       "input": {
-        "address": "/avatar/parameters/LeftEyeLidExpanded",
+        "address": "/avatar/parameters/FT/v2/EyeSquintRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LeftEyeLidExpanded",
+        "address": "/avatar/parameters/FT/v2/EyeSquintRight",
         "type": "Float"
       }
     },
     {
-      "name": "LeftEyeLidExpanded",
+      "name": "FT/v2/EyeSquintLeft",
       "input": {
-        "address": "/avatar/parameters/LeftEyeLidExpanded",
+        "address": "/avatar/parameters/FT/v2/EyeSquintLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LeftEyeLidExpanded",
+        "address": "/avatar/parameters/FT/v2/EyeSquintLeft",
         "type": "Float"
       }
     },
     {
-      "name": "LeftEyeLidExpandedSqueeze",
+      "name": "FT/v2/MouthLowerDown",
       "input": {
-        "address": "/avatar/parameters/LeftEyeLidExpandedSqueeze",
+        "address": "/avatar/parameters/FT/v2/MouthLowerDown",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LeftEyeLidExpandedSqueeze",
+        "address": "/avatar/parameters/FT/v2/MouthLowerDown",
         "type": "Float"
       }
     },
     {
-      "name": "LeftEyeLidExpandedSqueeze",
+      "name": "FT/v2/MouthUpperUp",
       "input": {
-        "address": "/avatar/parameters/LeftEyeLidExpandedSqueeze",
+        "address": "/avatar/parameters/FT/v2/MouthUpperUp",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LeftEyeLidExpandedSqueeze",
+        "address": "/avatar/parameters/FT/v2/MouthUpperUp",
         "type": "Float"
       }
     },
     {
-      "name": "LeftEyeSqueeze",
+      "name": "FT/v2/JawOpen",
       "input": {
-        "address": "/avatar/parameters/LeftEyeSqueeze",
+        "address": "/avatar/parameters/FT/v2/JawOpen",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LeftEyeSqueeze",
+        "address": "/avatar/parameters/FT/v2/JawOpen",
         "type": "Float"
       }
     },
     {
-      "name": "LeftEyeWiden",
+      "name": "FT/v2/JawLeft",
       "input": {
-        "address": "/avatar/parameters/LeftEyeWiden",
+        "address": "/avatar/parameters/FT/v2/JawLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LeftEyeWiden",
+        "address": "/avatar/parameters/FT/v2/JawLeft",
         "type": "Float"
       }
     },
     {
-      "name": "LeftEyeX",
+      "name": "FT/v2/JawRight",
       "input": {
-        "address": "/avatar/parameters/LeftEyeX",
+        "address": "/avatar/parameters/FT/v2/JawRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LeftEyeX",
+        "address": "/avatar/parameters/FT/v2/JawRight",
         "type": "Float"
       }
     },
     {
-      "name": "LeftEyeY",
+      "name": "FT/v2/EyesY",
       "input": {
-        "address": "/avatar/parameters/LeftEyeY",
+        "address": "/avatar/parameters/FT/v2/EyesY",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LeftEyeY",
+        "address": "/avatar/parameters/FT/v2/EyesY",
         "type": "Float"
       }
     },
     {
-      "name": "LipFunnelBottom",
+      "name": "FT/v2/EyeRightX",
       "input": {
-        "address": "/avatar/parameters/LipFunnelBottom",
+        "address": "/avatar/parameters/FT/v2/EyeRightX",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LipFunnelBottom",
+        "address": "/avatar/parameters/FT/v2/EyeRightX",
         "type": "Float"
       }
     },
     {
-      "name": "LipFunnelBottomLeft",
+      "name": "FT/v2/EyeLeftX",
       "input": {
-        "address": "/avatar/parameters/LipFunnelBottomLeft",
+        "address": "/avatar/parameters/FT/v2/EyeLeftX",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LipFunnelBottomLeft",
+        "address": "/avatar/parameters/FT/v2/EyeLeftX",
         "type": "Float"
       }
     },
     {
-      "name": "LipFunnelBottomRight",
+      "name": "FT/v2/EyeOpenRight",
       "input": {
-        "address": "/avatar/parameters/LipFunnelBottomRight",
+        "address": "/avatar/parameters/FT/v2/EyeOpenRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LipFunnelBottomRight",
+        "address": "/avatar/parameters/FT/v2/EyeOpenRight",
         "type": "Float"
       }
     },
     {
-      "name": "LipFunnelTop",
+      "name": "FT/v2/EyeOpenLeft",
       "input": {
-        "address": "/avatar/parameters/LipFunnelTop",
+        "address": "/avatar/parameters/FT/v2/EyeOpenLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LipFunnelTop",
+        "address": "/avatar/parameters/FT/v2/EyeOpenLeft",
         "type": "Float"
       }
     },
     {
-      "name": "LipFunnelTopLeft",
+      "name": "FT/v2/MouthUpperUpLeft",
       "input": {
-        "address": "/avatar/parameters/LipFunnelTopLeft",
+        "address": "/avatar/parameters/FT/v2/MouthUpperUpLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LipFunnelTopLeft",
+        "address": "/avatar/parameters/FT/v2/MouthUpperUpLeft",
         "type": "Float"
       }
     },
     {
-      "name": "LipFunnelTopRight",
+      "name": "FT/v2/MouthUpperUpRight",
       "input": {
-        "address": "/avatar/parameters/LipFunnelTopRight",
+        "address": "/avatar/parameters/FT/v2/MouthUpperUpRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LipFunnelTopRight",
+        "address": "/avatar/parameters/FT/v2/MouthUpperUpRight",
         "type": "Float"
       }
     },
     {
-      "name": "LipPuckerLeft",
+      "name": "FT/v2/MouthLowerDownLeft",
       "input": {
-        "address": "/avatar/parameters/LipPuckerLeft",
+        "address": "/avatar/parameters/FT/v2/MouthLowerDownLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LipPuckerLeft",
+        "address": "/avatar/parameters/FT/v2/MouthLowerDownLeft",
         "type": "Float"
       }
     },
     {
-      "name": "LipPuckerRight",
+      "name": "FT/v2/MouthLowerDownRight",
       "input": {
-        "address": "/avatar/parameters/LipPuckerRight",
+        "address": "/avatar/parameters/FT/v2/MouthLowerDownRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LipPuckerRight",
+        "address": "/avatar/parameters/FT/v2/MouthLowerDownRight",
         "type": "Float"
       }
     },
     {
-      "name": "LipSuckBottomLeft",
+      "name": "FT/v2/CheekSquintLeft",
       "input": {
-        "address": "/avatar/parameters/LipSuckBottomLeft",
+        "address": "/avatar/parameters/FT/v2/CheekSquintLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LipSuckBottomLeft",
+        "address": "/avatar/parameters/FT/v2/CheekSquintLeft",
         "type": "Float"
       }
     },
     {
-      "name": "LipSuckBottomRight",
+      "name": "FT/v2/CheekSquintRight",
       "input": {
-        "address": "/avatar/parameters/LipSuckBottomRight",
+        "address": "/avatar/parameters/FT/v2/CheekSquintRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LipSuckBottomRight",
+        "address": "/avatar/parameters/FT/v2/CheekSquintRight",
         "type": "Float"
       }
     },
     {
-      "name": "LipSuckTopLeft",
+      "name": "FT/v2/MouthPressLeft",
       "input": {
-        "address": "/avatar/parameters/LipSuckTopLeft",
+        "address": "/avatar/parameters/FT/v2/MouthPressLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LipSuckTopLeft",
+        "address": "/avatar/parameters/FT/v2/MouthPressLeft",
         "type": "Float"
       }
     },
     {
-      "name": "LipSuckTopRight",
+      "name": "FT/v2/MouthPressRight",
       "input": {
-        "address": "/avatar/parameters/LipSuckTopRight",
+        "address": "/avatar/parameters/FT/v2/MouthPressRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/LipSuckTopRight",
+        "address": "/avatar/parameters/FT/v2/MouthPressRight",
         "type": "Float"
       }
     },
     {
-      "name": "Max",
+      "name": "FT/v2/MouthRaiserUpper",
       "input": {
-        "address": "/avatar/parameters/Max",
+        "address": "/avatar/parameters/FT/v2/MouthRaiserUpper",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/Max",
+        "address": "/avatar/parameters/FT/v2/MouthRaiserUpper",
         "type": "Float"
       }
     },
     {
-      "name": "MouthApeShape",
+      "name": "FT/v2/LipSuckLower",
       "input": {
-        "address": "/avatar/parameters/MouthApeShape",
+        "address": "/avatar/parameters/FT/v2/LipSuckLower",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/MouthApeShape",
+        "address": "/avatar/parameters/FT/v2/LipSuckLower",
         "type": "Float"
       }
     },
     {
-      "name": "MouthDimpleLeft",
+      "name": "FT/v2/MouthDimpleLeft",
       "input": {
-        "address": "/avatar/parameters/MouthDimpleLeft",
+        "address": "/avatar/parameters/FT/v2/MouthDimpleLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/MouthDimpleLeft",
+        "address": "/avatar/parameters/FT/v2/MouthDimpleLeft",
         "type": "Float"
       }
     },
     {
-      "name": "MouthDimpleRight",
+      "name": "FT/v2/MouthDimpleRight",
       "input": {
-        "address": "/avatar/parameters/MouthDimpleRight",
+        "address": "/avatar/parameters/FT/v2/MouthDimpleRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/MouthDimpleRight",
+        "address": "/avatar/parameters/FT/v2/MouthDimpleRight",
         "type": "Float"
       }
     },
     {
-      "name": "MouthLowerDownLeft",
+      "name": "FT/v2/MouthFrownLeft",
       "input": {
-        "address": "/avatar/parameters/MouthLowerDownLeft",
+        "address": "/avatar/parameters/FT/v2/MouthFrownLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/MouthLowerDownLeft",
+        "address": "/avatar/parameters/FT/v2/MouthFrownLeft",
         "type": "Float"
       }
     },
     {
-      "name": "MouthLowerDownRight",
+      "name": "FT/v2/MouthFrownRight",
       "input": {
-        "address": "/avatar/parameters/MouthLowerDownRight",
+        "address": "/avatar/parameters/FT/v2/MouthFrownRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/MouthLowerDownRight",
+        "address": "/avatar/parameters/FT/v2/MouthFrownRight",
         "type": "Float"
       }
     },
     {
-      "name": "MouthLowerInside",
+      "name": "FT/v2/MouthSmileLeft",
       "input": {
-        "address": "/avatar/parameters/MouthLowerInside",
+        "address": "/avatar/parameters/FT/v2/MouthSmileLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/MouthLowerInside",
+        "address": "/avatar/parameters/FT/v2/MouthSmileLeft",
         "type": "Float"
       }
     },
     {
-      "name": "MouthLowerLeft",
+      "name": "FT/v2/MouthSmileRight",
       "input": {
-        "address": "/avatar/parameters/MouthLowerLeft",
+        "address": "/avatar/parameters/FT/v2/MouthSmileRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/MouthLowerLeft",
+        "address": "/avatar/parameters/FT/v2/MouthSmileRight",
         "type": "Float"
       }
     },
     {
-      "name": "MouthLowerOverlay",
+      "name": "FT/v2/MouthUpperLeft",
       "input": {
-        "address": "/avatar/parameters/MouthLowerOverlay",
+        "address": "/avatar/parameters/FT/v2/MouthUpperLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/MouthLowerOverlay",
+        "address": "/avatar/parameters/FT/v2/MouthUpperLeft",
         "type": "Float"
       }
     },
     {
-      "name": "MouthLowerOverturn",
+      "name": "FT/v2/MouthUpperRight",
       "input": {
-        "address": "/avatar/parameters/MouthLowerOverturn",
+        "address": "/avatar/parameters/FT/v2/MouthUpperRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/MouthLowerOverturn",
+        "address": "/avatar/parameters/FT/v2/MouthUpperRight",
         "type": "Float"
       }
     },
     {
-      "name": "MouthLowerRight",
+      "name": "FT/v2/MouthLowerLeft",
       "input": {
-        "address": "/avatar/parameters/MouthLowerRight",
+        "address": "/avatar/parameters/FT/v2/MouthLowerLeft",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/MouthLowerRight",
+        "address": "/avatar/parameters/FT/v2/MouthLowerLeft",
         "type": "Float"
       }
     },
     {
-      "name": "MouthPout",
+      "name": "FT/v2/MouthLowerRight",
       "input": {
-        "address": "/avatar/parameters/MouthPout",
+        "address": "/avatar/parameters/FT/v2/MouthLowerRight",
         "type": "Float"
       },
       "output": {
-        "address": "/avatar/parameters/MouthPout",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthPress",
-      "input": {
-        "address": "/avatar/parameters/MouthPress",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthPress",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthPressLeft",
-      "input": {
-        "address": "/avatar/parameters/MouthPressLeft",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthPressLeft",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthPressRight",
-      "input": {
-        "address": "/avatar/parameters/MouthPressRight",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthPressRight",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthRaiserLower",
-      "input": {
-        "address": "/avatar/parameters/MouthRaiserLower",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthRaiserLower",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthRaiserUpper",
-      "input": {
-        "address": "/avatar/parameters/MouthRaiserUpper",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthRaiserUpper",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthSadLeft",
-      "input": {
-        "address": "/avatar/parameters/MouthSadLeft",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthSadLeft",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthSadRight",
-      "input": {
-        "address": "/avatar/parameters/MouthSadRight",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthSadRight",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthSmileLeft",
-      "input": {
-        "address": "/avatar/parameters/MouthSmileLeft",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthSmileLeft",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthSmileRight",
-      "input": {
-        "address": "/avatar/parameters/MouthSmileRight",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthSmileRight",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthStretchLeft",
-      "input": {
-        "address": "/avatar/parameters/MouthStretchLeft",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthStretchLeft",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthStretchRight",
-      "input": {
-        "address": "/avatar/parameters/MouthStretchRight",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthStretchRight",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthTightener",
-      "input": {
-        "address": "/avatar/parameters/MouthTightener",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthTightener",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthTightenerLeft",
-      "input": {
-        "address": "/avatar/parameters/MouthTightenerLeft",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthTightenerLeft",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthTightenerRight",
-      "input": {
-        "address": "/avatar/parameters/MouthTightenerRight",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthTightenerRight",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthUpperInside",
-      "input": {
-        "address": "/avatar/parameters/MouthUpperInside",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthUpperInside",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthUpperLeft",
-      "input": {
-        "address": "/avatar/parameters/MouthUpperLeft",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthUpperLeft",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthUpperOverturn",
-      "input": {
-        "address": "/avatar/parameters/MouthUpperOverturn",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthUpperOverturn",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthUpperRight",
-      "input": {
-        "address": "/avatar/parameters/MouthUpperRight",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthUpperRight",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthUpperUpLeft",
-      "input": {
-        "address": "/avatar/parameters/MouthUpperUpLeft",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthUpperUpLeft",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "MouthUpperUpRight",
-      "input": {
-        "address": "/avatar/parameters/MouthUpperUpRight",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/MouthUpperUpRight",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "NoseSneerLeft",
-      "input": {
-        "address": "/avatar/parameters/NoseSneerLeft",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/NoseSneerLeft",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "NoseSneerRight",
-      "input": {
-        "address": "/avatar/parameters/NoseSneerRight",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/NoseSneerRight",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "RightEyeLid",
-      "input": {
-        "address": "/avatar/parameters/RightEyeLid",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/RightEyeLid",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "RightEyeLidExpanded",
-      "input": {
-        "address": "/avatar/parameters/RightEyeLidExpanded",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/RightEyeLidExpanded",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "RightEyeLidExpanded",
-      "input": {
-        "address": "/avatar/parameters/RightEyeLidExpanded",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/RightEyeLidExpanded",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "RightEyeLidExpandedSqueeze",
-      "input": {
-        "address": "/avatar/parameters/RightEyeLidExpandedSqueeze",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/RightEyeLidExpandedSqueeze",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "RightEyeLidExpandedSqueeze",
-      "input": {
-        "address": "/avatar/parameters/RightEyeLidExpandedSqueeze",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/RightEyeLidExpandedSqueeze",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "RightEyeSqueeze",
-      "input": {
-        "address": "/avatar/parameters/RightEyeSqueeze",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/RightEyeSqueeze",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "RightEyeSqueezeToggle",
-      "input": {
-        "address": "/avatar/parameters/RightEyeSqueezeToggle",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/RightEyeSqueezeToggle",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "RightEyeWiden",
-      "input": {
-        "address": "/avatar/parameters/RightEyeWiden",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/RightEyeWiden",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "RightEyeWidenToggle",
-      "input": {
-        "address": "/avatar/parameters/RightEyeWidenToggle",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/RightEyeWidenToggle",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "RightEyeX",
-      "input": {
-        "address": "/avatar/parameters/RightEyeX",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/RightEyeX",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "RightEyeY",
-      "input": {
-        "address": "/avatar/parameters/RightEyeY",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/RightEyeY",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "SRanipalMax",
-      "input": {
-        "address": "/avatar/parameters/SRanipalMax",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/SRanipalMax",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "TongueDown",
-      "input": {
-        "address": "/avatar/parameters/TongueDown",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/TongueDown",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "TongueDownLeftMorph",
-      "input": {
-        "address": "/avatar/parameters/TongueDownLeftMorph",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/TongueDownLeftMorph",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "TongueDownRightMorph",
-      "input": {
-        "address": "/avatar/parameters/TongueDownRightMorph",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/TongueDownRightMorph",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "TongueLeft",
-      "input": {
-        "address": "/avatar/parameters/TongueLeft",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/TongueLeft",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "TongueLongStep1",
-      "input": {
-        "address": "/avatar/parameters/TongueLongStep1",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/TongueLongStep1",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "TongueLongStep2",
-      "input": {
-        "address": "/avatar/parameters/TongueLongStep2",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/TongueLongStep2",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "TongueRight",
-      "input": {
-        "address": "/avatar/parameters/TongueRight",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/TongueRight",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "TongueRoll",
-      "input": {
-        "address": "/avatar/parameters/TongueRoll",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/TongueRoll",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "TongueUp",
-      "input": {
-        "address": "/avatar/parameters/TongueUp",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/TongueUp",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "TongueUpLeftMorph",
-      "input": {
-        "address": "/avatar/parameters/TongueUpLeftMorph",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/TongueUpLeftMorph",
-        "type": "Float"
-      }
-    },
-    {
-      "name": "TongueUpRightMorph",
-      "input": {
-        "address": "/avatar/parameters/TongueUpRightMorph",
-        "type": "Float"
-      },
-      "output": {
-        "address": "/avatar/parameters/TongueUpRightMorph",
+        "address": "/avatar/parameters/FT/v2/MouthLowerRight",
         "type": "Float"
       }
     }

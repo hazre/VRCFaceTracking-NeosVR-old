@@ -8,8 +8,8 @@ fs.readFile('./static/parameters.txt', 'utf8', (err, data) => {
   const lines = data.split('\n').map(line => line.replace('\r', ''))
   const static_obj: FaceExpression = {}
   const preset_obj: Preset = {
-    id: 'sample',
-    name: 'expressions',
+    id: 'vrc_parameters',
+    name: 'expressions (UE)',
     parameters: [],
   }
 
@@ -17,21 +17,16 @@ fs.readFile('./static/parameters.txt', 'utf8', (err, data) => {
     const obj = {
       name: `${line}`,
       input: {
-        address: `/avatar/parameters/${line}`,
+        address: `/avatar/parameters/FT/v2/${line}`,
         type: 'Float',
       },
       output: {
-        address: `/avatar/parameters/${line}`,
+        address: `/avatar/parameters/FT/v2/${line}`,
         type: 'Float',
       },
     }
-    static_obj[line] = 0
+    static_obj[line] = 1
     preset_obj.parameters.push(obj)
-  })
-  fs.writeFile('./static/expressions.json', JSON.stringify(static_obj, null, 2), (err) => {
-    if (err)
-      throw err
-    console.log('Data written to file')
   })
   fs.writeFile('./static/vrc_parameters.json', JSON.stringify(preset_obj, null, 2), (err) => {
     if (err)
